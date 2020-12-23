@@ -1,0 +1,20 @@
+Package: iClusterPlus
+Title: Integrative clustering of multi-type genomic data
+Version: 1.26.0
+Date: 2018-09-27
+Depends: R (>= 3.3.0), parallel
+Suggests: RUnit, BiocGenerics
+Author: Qianxing Mo, Ronglai Shen
+Maintainer: Qianxing Mo <qianxing.mo@moffitt.org>, Ronglai Shen <shenr@mskcc.org>
+Description: Integrative clustering of multiple genomic data using a
+        joint latent variable model.
+LazyData: yes
+License: GPL (>= 2)
+biocViews: Microarray, Clustering
+git_url: https://git.bioconductor.org/packages/iClusterPlus
+git_branch: RELEASE_3_12
+git_last_commit: 4e2e2a2
+git_last_commit_date: 2020-10-27
+Date/Publication: 2020-10-27
+NeedsCompilation: yes
+Packaged: 2020-10-28 00:57:11 UTC; biocbuild
