@@ -2144,7 +2144,7 @@ if test "x${FC}" != x; then
 fi
 
 case "${FC}" in
-    gfortran*)
+    *gfortran*)
       echo "  R configured for gfortran; Good!"
       OUR_FCFLAGS="-fdefault-real-8 -ffixed-form"
 
